@@ -11,16 +11,16 @@ theme = "hugo-icon"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/kinetic-sculpture.jpg"
+  img = "images/slam.jpg"
   title = "Kinetic Museums Consulting"
   description = "Today's strategy for now people"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  mission = "Mission"
   services = "Services"
-  team = "The Team"
-  contact = "Get In Touch"
+  team = "About"
+  contact = "Contact"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
