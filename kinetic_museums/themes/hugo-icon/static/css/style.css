@@ -220,7 +220,10 @@ p {
 }
 #fh5co-home > .container {
   position: relative;
-  z-index: 2;
+  /*z-index: 2;*/
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); /* 80% Black */
 }
 
 
@@ -276,6 +279,7 @@ p {
   line-height: 0;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
+  font-family: Lato;
   padding: 35px 0;
   margin-right: 30px;
   color: #ccc;

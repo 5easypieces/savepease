@@ -13,7 +13,7 @@ theme = "hugo-icon"
 [params.hero]
   img = "images/curves.jpg"
   title = "Kinetic Museums Consulting"
-  description = "Now strategies for today's museums"
+  description = "Strategy for today's museums"
 
 # Navigation section
 [params.nav]
