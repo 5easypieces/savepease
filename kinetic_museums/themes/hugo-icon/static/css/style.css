@@ -27,10 +27,25 @@ a:hover, a:focus, a:active {
   color: #3da1a7;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
   color: #000;
   margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Comfortaa', sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1.0!important;
+  letter-spacing: -1px!important;
+  margin-bottom: 0px!important;
+}
+
+h2 {
+  font-family: 'Lato', serif;
+  color: #fff!important;
+  font-weight: 400;
 }
 
 p {
@@ -207,6 +222,9 @@ p {
   position: relative;
   z-index: 2;
 }
+
+
+
 #fh5co-home .fh5co-copy {
   display: table;
   width: 100%;
