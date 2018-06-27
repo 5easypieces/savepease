@@ -11,7 +11,7 @@ theme = "hugo-icon"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/curves.jpg"
+  img = "images/rainbow-panorama.jpg"
   title = "Kinetic Museums Consulting"
   description = "Strategy for today's museums"
 
