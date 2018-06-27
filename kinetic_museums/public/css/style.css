@@ -27,10 +27,25 @@ a:hover, a:focus, a:active {
   color: #3da1a7;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-family: "Open Sans", Arial, sans-serif;
   color: #000;
   margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Comfortaa', sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1.0!important;
+  letter-spacing: -1px!important;
+  margin-bottom: 0px!important;
+}
+
+h2 {
+  font-family: 'Lato', serif;
+  color: #fff!important;
+  font-weight: 400;
 }
 
 p {
@@ -205,8 +220,14 @@ p {
 }
 #fh5co-home > .container {
   position: relative;
-  z-index: 2;
+  /*z-index: 2;*/
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3); /* 80% Black */
 }
+
+
+
 #fh5co-home .fh5co-copy {
   display: table;
   width: 100%;
@@ -258,6 +279,7 @@ p {
   line-height: 0;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
+  font-family: Lato;
   padding: 35px 0;
   margin-right: 30px;
   color: #ccc;
