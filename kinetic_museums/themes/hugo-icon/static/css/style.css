@@ -10,7 +10,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
-  color: #949494;
+  color: #393E41;
 }
 body.fh5co-overflow {
   overflow-x: hidden;
@@ -35,7 +35,7 @@ h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Comfortaa', sans-serif;
-  color: #000;
+  color: #F6F7EB!important;
   text-transform: uppercase;
   line-height: 1.0!important;
   letter-spacing: -1px!important;
@@ -44,8 +44,16 @@ h1 {
 
 h2 {
   font-family: 'Lato', serif;
-  color: #fff!important;
+
   font-weight: 400;
+}
+
+.fh5co-tabs-container > .fh5co-tab-content h2 {
+  color: #5C415D!important;
+}
+
+#fh5co-home .fh5co-copy-inner h2 {
+  color: #F6F7EB;
 }
 
 p {
@@ -265,7 +273,7 @@ p {
 
 .fh5co-main-nav {
   position: relative;
-  background: #fff;
+  background: #F6F7EB;
 }
 .fh5co-main-nav.fh5co-shadow {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
@@ -282,7 +290,7 @@ p {
   font-family: Lato;
   padding: 35px 0;
   margin-right: 30px;
-  color: #ccc;
+  color: #393E41;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
@@ -298,7 +306,7 @@ p {
 }
 .fh5co-main-nav .fh5co-menu-1 a.active {
   font-weight: 400;
-  color: #000;
+  color: #E94F37;
 }
 .fh5co-main-nav .fh5co-menu-1 {
   width: 100%;
@@ -481,7 +489,8 @@ p {
   width: 100%;
   display: block;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 17px;
+  font-family: Comfortaa, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #888;
@@ -491,8 +500,8 @@ p {
   outline: none;
 }
 .fh5co-tabs-container .fh5co-tabs li.active a {
-  color: #69c2c8;
-  border-bottom: 1px solid #69c2c8;
+  color: #5C415D;
+  border-bottom: 1px solid #5C415D;
 }
 @media screen and (max-width: 480px) {
   .fh5co-tabs-container .fh5co-tabs li {
@@ -855,7 +864,7 @@ p {
 #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: #F6F7EB;
   opacity: 0;
   visibility: hidden;
   position: relative;
