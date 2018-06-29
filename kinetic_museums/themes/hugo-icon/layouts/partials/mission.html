@@ -6,7 +6,7 @@
       <div class="fh5co-tabs-container">
 	<ul class="fh5co-tabs fh5co-three">
 
-    {{ range (where .Site.Pages "Section" "mission") }}
+    {{ range (where .Site.RegularPages "Section" "mission") }}
 
 	    {{ if eq .Params.weight 1}}<li class="active">
       {{ else }}<li>
