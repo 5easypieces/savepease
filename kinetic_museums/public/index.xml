@@ -11,7 +11,7 @@
     
     
     <item>
-      <title>Marketing</title>
+      <title>Usability</title>
       <link>http://example.org/mission/marketing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -22,7 +22,16 @@ Web DevelopmentUser Interface ExpertsPixel Perfect DesignGet In Touch
     </item>
     
     <item>
-      <title>Strategy</title>
+      <title>Web Development</title>
+      <link>http://example.org/services/webdev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/services/webdev/</guid>
+      <description>This is the text content for the webdev section.</description>
+    </item>
+    
+    <item>
+      <title>Agility</title>
       <link>http://example.org/mission/strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,6 +39,33 @@ Web DevelopmentUser Interface ExpertsPixel Perfect DesignGet In Touch
       <description>This is the strategy section description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.
 Web DevelopmentUser Interface ExpertsPixel Perfect DesignGet In Touch
 &amp;ldquo;</description>
+    </item>
+    
+    <item>
+      <title>Hiring</title>
+      <link>http://example.org/services/hiring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/services/hiring/</guid>
+      <description>This is the text content for the hiring section.</description>
+    </item>
+    
+    <item>
+      <title>Strategy</title>
+      <link>http://example.org/services/strategy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/services/strategy/</guid>
+      <description>This is the text content for the strategy section.</description>
+    </item>
+    
+    <item>
+      <title>Visitor Focus</title>
+      <link>http://example.org/mission/jams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/mission/jams/</guid>
+      <description>This is the visitor focus section description.</description>
     </item>
     
   </channel>

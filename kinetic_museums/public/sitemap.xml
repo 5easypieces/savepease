@@ -7,7 +7,23 @@
   </url>
   
   <url>
+    <loc>http://example.org/services/webdev/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/mission/strategy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/services/hiring/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/services/strategy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/mission/jams/</loc>
   </url>
   
   <url>
@@ -27,6 +43,10 @@
   <url>
     <loc>http://example.org/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/services/</loc>
   </url>
   
 </urlset>
