@@ -10,7 +10,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
-  color: #393E41;
+  color: #153243;
 }
 body.fh5co-overflow {
   overflow-x: hidden;
@@ -18,7 +18,7 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #69c2c8;
+  color: #D7263D;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -35,7 +35,7 @@ h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Comfortaa', sans-serif;
-  color: #F6F7EB!important;
+  color: #EEF0EB!important;
   text-transform: uppercase;
   line-height: 1.0!important;
   letter-spacing: -1px!important;
@@ -53,7 +53,7 @@ h2 {
 }
 
 #fh5co-home .fh5co-copy-inner h2 {
-  color: #F6F7EB;
+  color: #EEF0EB!important;
 }
 
 p {
@@ -273,7 +273,7 @@ p {
 
 .fh5co-main-nav {
   position: relative;
-  background: #F6F7EB;
+  background: #EEF0EB;
 }
 .fh5co-main-nav.fh5co-shadow {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
@@ -290,7 +290,7 @@ p {
   font-family: Lato;
   padding: 35px 0;
   margin-right: 30px;
-  color: #393E41;
+  color: #153243;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
@@ -306,7 +306,7 @@ p {
 }
 .fh5co-main-nav .fh5co-menu-1 a.active {
   font-weight: 400;
-  color: #E94F37;
+  color: #D7263D;
 }
 .fh5co-main-nav .fh5co-menu-1 {
   width: 100%;
