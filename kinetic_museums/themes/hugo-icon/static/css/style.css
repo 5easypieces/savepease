@@ -49,7 +49,7 @@ h2 {
 }
 
 .fh5co-tabs-container > .fh5co-tab-content h2 {
-  color: #5C415D!important;
+  color: #36393B!important;
 }
 
 #fh5co-home .fh5co-copy-inner h2 {
@@ -374,7 +374,7 @@ p {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-  background: #E8ECF1;
+  background: #B4B8AB;
   width: 100%;
 }
 #fh5co-about .fh5co-2col {
@@ -493,15 +493,15 @@ p {
   font-family: Comfortaa, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #888;
+  color: #36393B;
 }
 .fh5co-tabs-container .fh5co-tabs li a:hover, .fh5co-tabs-container .fh5co-tabs li a:active, .fh5co-tabs-container .fh5co-tabs li a:focus {
   text-decoration: none;
   outline: none;
 }
 .fh5co-tabs-container .fh5co-tabs li.active a {
-  color: #5C415D;
-  border-bottom: 1px solid #5C415D;
+  color: #D7263D;
+  border-bottom: 1px solid #D7263D;
 }
 @media screen and (max-width: 480px) {
   .fh5co-tabs-container .fh5co-tabs li {
@@ -519,7 +519,7 @@ p {
   font-weight: 300;
   line-height: 1.8;
   margin-bottom: 30px;
-  color: #7b7b7b;
+  color: #36393B;
 }
 .fh5co-tabs-container .fh5co-tab-content.active {
   display: block;
