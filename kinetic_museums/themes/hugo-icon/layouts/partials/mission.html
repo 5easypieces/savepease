@@ -1,7 +1,35 @@
+<div class="mdl-grid" data-section="mission">
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-cell mdl-cell--6-col">
+      <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+        <div class="mdl-tabs__tab-bar">
+          {{ range (where .Site.RegularPages "Section" "mission") }}
+            <a href="#{{.Params.name}}-panel" class="mdl-tabs__tab {{ if eq .Params.weight 1}}is-active{{end}}">{{ .Params.title | markdownify }}</a>
+
+          {{ end }}
+
+        </div>
+        {{ range (where .Site.RegularPages "Section" "mission") }}
+          <div class="mdl-tabs__panel {{ if eq .Params.weight 1}}is-active{{end}}" id="{{.Params.name}}-panel">
+            {{with .Params.subtitle}}<h2>{{ . }}</h2>{{ end }}
+            {{ .Content }}
+          </div>
+        {{ end }}
+
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          Contact Me
+        </button>
+      </div><!--mdl-tabs-->
+    </div>
+    <div class="mdl-layout-spacer"></div>
+</div>
+
+
+
 <div id="fh5co-about" data-section="mission">
   <div class="fh5co-2col">
-    <div class="fh5co-2col-inner left">
-      <div class="fh5co-tabs-container">
+    <div class="fh5co-2col-inner">
+      <div class="fh5co-tabs-container center">
 	       <ul class="fh5co-tabs fh5co-three">
            {{ range (where .Site.RegularPages "Section" "mission") }}
               {{ if eq .Params.weight 1}}<li class="active">{{ else }}<li>{{ end }}
@@ -27,14 +55,5 @@
 
   </div>
 
-  <div class="fh5co-2col fh5co-text">
-    <div class="fh5co-grid">
-      {{ if .Site.Params.mission.images.enable }}
-      {{ range .Site.Params.mission.images.list }}
-      <div class="fh5co-grid-item" style="background-image: url({{ with .img }}{{ . | absURL }}{{ end }});"></div>
-      {{ end }}
-      {{ end }}
 
-    </div>
-  </div>
 </div> <!-- END fh5co-about -->
