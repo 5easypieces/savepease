@@ -1,0 +1,12 @@
+{{ $paginator := .Paginator }}
+
+<div class="mdl-grid" style="max-width: 350px;">
+  <div class="mdl-cell mdl-cell--12-col">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="mdl-button"><i class="material-icons">navigate_before</i>Newer Posts</a>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="mdl-button">Older Posts<i class="material-icons">navigate_next</i></a>
+    {{ end }}
+  </div>
+</div>

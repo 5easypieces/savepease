@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  {{ .Hugo.Generator }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+  {{ if .RSSLink }}
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
+  {{ end }}
+  <link rel="stylesheet" href="/mdl/material.css" />
+  <script src="/mdl/material.js"></script>
+  <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto:300,400,700|Rubik:300,300i,400,400i,700,700i" rel="stylesheet">
+  <meta property="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+  <link rel="icon" sizes="192x192" href="{{ .Site.Params.avatar }}">
+  <link rel="shortcut icon" href="http://res.cloudinary.com/koven-j-smith-dot-com/image/upload/v1516135044/8584700392_c9dd67597e_fpaqui.jpg">
+  <link href="https://twitter.com/5easypieces" rel="me">
+  <link rel="pingback" href="https://webmention.io/kovenjsmith.com/xmlrpc" />
+  <link rel="webmention" href="https://webmention.io/kovenjsmith.com/webmention" />
+</head>

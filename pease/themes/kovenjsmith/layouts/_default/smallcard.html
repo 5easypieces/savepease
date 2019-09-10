@@ -1,0 +1,22 @@
+<div class="mdl-card mdl-cell mdl-cell--3-col mdl-shadow--2dp mdl-card--horizontal kovensmith-card">
+{{ partial "get_timestamp" . }}
+  <div class="mdl-card__media mdl-grid" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.65) 100%), url(/jpg/{{ .Scratch.Get "timestamp" }}.jpg) no-repeat center center; height: 185px; width: 100%; background-size: cover">
+
+      <div class="mdl-cell mdl-cell--12-col post-header__container">
+        <a href="{{.Permalink}}" style="text-decoration: none"><h1 class="mdl-card__title-text" style="font-size: 25px; line-height: 30px; letter-spacing: -1px;">{{.Title}}</h1></a>
+
+    </div>
+  </div>
+  <div class="mdl-card__supporting-text kovensmith-card__supporting-text">
+    <h3>{{ .Date.Format "January 2, 2006"}}</h3>
+    {{ with .Params.abstract}}
+      <div class="kovensmith-card__abstract">
+        {{.}}
+      </div>
+    {{ end }}
+
+  </div>
+  <div class="mdl-card__actions">
+    <a href="{{.Permalink}}" class="mdl-button">{{.ReadingTime}}-minute read<i class="material-icons">navigate_next</i></a>
+  </div>
+</div>

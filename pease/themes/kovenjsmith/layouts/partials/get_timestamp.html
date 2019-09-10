@@ -1,0 +1,7 @@
+{{ $time := time (int .Lastmod.Unix) }}
+{{ if ge $time.Minute 40 }}
+  {{ .Scratch.Set "timestamp" (sub $time.Minute 20) }}
+
+{{ else }}
+  {{ .Scratch.Set "timestamp" $time.Minute }}
+{{ end }}
