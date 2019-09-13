@@ -1,0 +1,20 @@
+<header class="mdl-layout__header mdl-layout__header--scroll mdl-layout__header--transparent">
+  <div class="mdl-layout-icon"></div>
+  <div class="mdl-layout__header-row">
+    <span class="mdl-layout-title kovensmith-sitetitle">
+      <a class="" href="{{ .Site.BaseURL }}" style="text-decoration: none;">{{ .Site.Params.smalltitle }}</a><br>
+    </span>
+  </div>
+  <div class="mdl-layout__header-row kovensmith-header__bottom mdl-layout--large-screen-only">
+    <span class="kovensmith-subtitle">{{.Site.Params.subtitle }}</span>
+  </div>
+</header>
+<div class="mdl-layout__drawer">
+  <span class="mdl-layout-title kovensmith-sitetitle"><a href="{{ .Site.BaseURL }}" style="text-decoration: none">{{ .Site.Params.smalltitle }}</a></span>
+  <nav class="mdl-navigation">
+    {{ range .Site.Menus.main }}
+      <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{.URL}}">{{.Name}}</a>
+    {{end}}
+    <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{ $.Site.Params.search_page }}"><i class="material-icons">search</i></a>
+  </nav>
+</div>

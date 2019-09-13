@@ -1,12 +1,12 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Save Pease Elementary"
-theme = "hugo-icon"
+theme = "peasetheme"
 
 
 # Metadata
 [params]
-  author = "Koven J. Smith"
+  author = "Save Pease"
   description = "About Pease Elementary, Texas' oldest continually-operating public school"
 
 # Hero section (from here on is for icon theme)

@@ -1,0 +1,29 @@
+{{- if isset .Params "abstract" -}}
+  {{- .Scratch.Set "description" .Params.abstract -}}
+{{- else if (gt (len .Summary) 200) -}}
+  {{- .Scratch.Set "description" (slicestr .Summary 0 200 | plainify) -}}
+{{- else -}}
+  {{- .Scratch.Set "description" (.Summary | plainify) -}}
+{{- end -}}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@5easypieces" />
+<meta name="twitter:title" content="{{- .Title -}}" />
+<meta name="twitter:description" content="{{- .Scratch.Get "description" -}}" />
+
+{{ if .Param "hero_image.alt_image" }}
+  <meta name="twitter:image" content="{{- .Params.hero_image.alt_image | absURL -}}" />
+  <meta property="og:image" content="{{- .Params.hero_image.alt_image | absURL -}}" />
+{{ else if .Param "hero_image.image" }}
+  <meta name="twitter:image" content="{{- .Params.hero_image.image | absURL -}}" />
+  <meta property="og:image" content="{{- .Params.hero_image.image | absURL -}}" />
+{{ else }}
+  <meta name="twitter:image" content="{{- $.Site.Params.avatar | absURL -}}" />
+  <meta property="og:image" content="{{- $.Site.Params.avatar | absURL -}}" />
+{{- end -}}
+{{ with .Params.hero_image.description }}
+<meta name="twitter:image:alt" content="{{- . -}}" />
+{{- end }}
+<meta property="og:url" content="{{- .Permalink | absURL -}}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{- .Title -}}" />
+<meta property="og:description" content="{{- .Scratch.Get "description" -}}" />
