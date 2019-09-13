@@ -2,7 +2,7 @@
 
 
   <meta charset="utf-8">
-  {{ .Hugo.Generator }}
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 
@@ -14,11 +14,10 @@
   <script src="/mdl/material.js"></script>
   {{ $style := resources.Get "sass/main.scss" | toCSS | postCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" >
-  
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Noto+Serif+KR|Ultra&display=swap" rel="stylesheet">
 
 
 </head>
