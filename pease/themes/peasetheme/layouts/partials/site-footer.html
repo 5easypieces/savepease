@@ -1,0 +1,11 @@
+
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section h-card vcard">
+    <div class="mdl-logo"><img src="{{ .Site.Params.avatar | absURL }}" class="u-photo" style="display: none"> <a href="{{ .Site.BaseURL }}" class="p-name u-url url author metatag" rel="me" style="color: white; text-decoration: none">{{ .Site.Title }}</a></div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="{{- $.Site.Params.email -}}" class="u-email email metatag" rel="me">Contact Me</a></li>
+      <li><a href="{{$.Site.RSSLink}}">RSS</a></li>
+    </ul>
+
+  </div>
+</footer>

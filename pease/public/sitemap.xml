@@ -3,50 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/mission/marketing/</loc>
+    <loc>/mission/about/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/services/webdev/</loc>
+    <loc>/services/webdev/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/mission/strategy/</loc>
+    <loc>/mission/closure/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/services/hiring/</loc>
+    <loc>/services/hiring/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/services/strategy/</loc>
+    <loc>/services/strategy/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/mission/jams/</loc>
+    <loc>/mission/whattodo/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <priority>0</priority>
+    <loc>/mission/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/mission/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
+    <loc>/services/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/services/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
